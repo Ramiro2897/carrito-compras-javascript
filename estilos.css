@@ -1,0 +1,114 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  padding: 10px;
+}
+
+header{
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header a{
+  color: #1c4ba1;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin: 0 0 0 10px;
+}
+
+header div {
+  margin: 0 10px 0;
+  cursor: pointer;
+  padding: 3px;
+  display: flex;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+section{
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.productos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.producto {
+  min-width: 250px;
+  height: 180px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.fondo{
+  width: 100%;
+  height: 50%;
+  background-color: #7f8a9e;
+}
+
+.producto p{
+  color: #ccc;
+  font-size: 1rem;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-top: 10px;
+}
+
+.opciones {
+  width: 100%;
+  height: auto; 
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  text-align: center;
+  margin-top: 5px;
+}
+
+.pe {
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.pe p {
+  margin: 0; 
+  font-size: .7rem;
+}
+
+.carrito-add{
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 0 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3px;
+  cursor: pointer;
+}
+
+.carrito-add:hover{
+  background-color: #ccc;
+}
+
+
