@@ -12,7 +12,7 @@
     <header>
         <a href="#">Logo</a>
         <div class="carrito" id="carrito-header">
-            <box-icon name='cart-add' color='#49a6b1' ></box-icon>
+            <box-icon name='cart-add' color='#49a6b1' class="carrito"></box-icon>
         </div>
     </header>
 
@@ -21,31 +21,46 @@
             <div class="producto" data-id="1">
                 <div class="fondo">
                 </div>
-                <p class="info">este es un producto para la compra</p>
+                <p class="info"></p>
                 <div class="opciones">
+                    <p class="p"></p>
                     <div class="pe">
                         <p>agregar al carrito</p>
                       </div>
                       <div class="carrito-add">
-                        <box-icon name='cart-add' color='#49a6b1'></box-icon>
+                        <box-icon name='cart-add' color='#49a6b1' class="add-carrito"></box-icon>
                     </div>
                 </div>
             </div>
             <div class="producto" data-id="2">
                 <div class="fondo">
                 </div>
-                <p class="info">este es un producto para la compra</p>
+                <p class="info"></p>
                 <div class="opciones">
+                    <p class="p"></p>
                     <div class="pe">
                       <p>agregar al carrito</p>
                     </div>
                     <div class="carrito-add">
-                        <box-icon name='cart-add' color='#49a6b1'></box-icon>
+                        <box-icon name='cart-add' color='#49a6b1' class="add-carrito"></box-icon>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+
+    <div class="elementos-elegidos" style="display: none;">
+        <div class="cerrar">
+            <p>x</p>
+        </div>
+        <div class="carrito-items">
+            <!-- Aquí se mostrarán los elementos del carrito -->
+          </div>
+
+          <button> Comprar!
+        </button>
+
+    </div>
 
 
 
